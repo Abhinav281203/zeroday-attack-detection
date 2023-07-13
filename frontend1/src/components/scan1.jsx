@@ -30,7 +30,7 @@ const Scan1 = ({user, logout}) => {
         formData.append('username', user.username)
 
         try {
-            const response = await axios.post('http://127.0.0.1:8000/upload', formData, {
+            const response = await axios.post('https://dzd-backend.onrender.com/upload', formData, {
                 headers: { 'Content-Type': 'multipart/form-data' },
                 mode: 'no-cors'
             });

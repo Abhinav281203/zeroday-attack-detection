@@ -13,7 +13,7 @@ function Signup({ handlelogin }) {
   const handleSignupSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('http://127.0.0.1:8000/register', {
+      const response = await fetch('https://dzd-backend.onrender.com/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -41,7 +41,7 @@ function Signup({ handlelogin }) {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/login', {
+      const response = await fetch('https://dzd-backend.onrender.com/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
