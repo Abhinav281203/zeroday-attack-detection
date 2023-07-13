@@ -1,0 +1,25 @@
+.abouttitle{
+    margin-top: 1em;
+    margin-left: 3.5em;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.aboutreadus{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-top: 3em;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 4em;
+}
+
+.details{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 13em;
+}

@@ -1,0 +1,25 @@
+.code-snippet-container {
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+  /* margin:2em; */
+  /* margin-right: 8em; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #d1c6c6;
+  overflow: auto;
+  max-height: 200px;
+  width: 90%;
+}
+
+.code-snippet {
+  margin: 0.5em;
+  /* margin-left: 2em; */
+  font-family: monospace;
+  white-space: pre;
+}

@@ -1,0 +1,220 @@
+.title{
+        
+    align-items: center;
+    text-align: center;
+    /* margin: 5em; */
+    margin-top: 1em;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.main{
+    display: contents;
+    align-items: center;
+    text-align: center;
+}
+
+.img{
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+    justify-content: center;  
+}
+
+.content{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #535050;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    margin-top: 3em;
+    margin-left: 16em;
+    margin-right: 16em;
+    
+}
+
+.signup {
+    height: 40px;
+    margin: 1em;
+    width: 90px;
+    background: #333;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    border: solid #404C5D 1px;
+    font-size: 14px;
+    color: rgb(252, 248, 248);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+    -webkit-box-shadow: 1px 1px 13px #20232e,
+                      -1px -1px 13px #545b78;
+    box-shadow: 1px 1px 13px #20232e,
+               -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+  }
+  
+  .signup:active {
+    -webkit-box-shadow: 1px 1px 13px #20232e,
+                       -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #20232e,
+               -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+  }
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+    /* text-align: left; */
+}
+
+.cards > div {
+    margin-left: 2em;
+    margin-right: 1em; /* Adjust the margin value as needed */
+  }
+
+.biggertext{
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    color: #4d4949;
+    font-size: 50px;
+    margin-bottom: 0; /* Remove the default margin-bottom */
+    margin-top: 5px;
+}
+
+.smallertext{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #4d4949;
+    font-size: 15px;
+}
+
+.section2 {
+    background-image: url('https://res.cloudinary.com/gremlin/image/upload/t_default,f_auto/v1610465471/Tutorials/AWS%20EKS%20Autoscaling/Blog-Hero-ValidatingHorizontalPodAutoscalingOnEKSWithGremlin_2x.png');
+    background-size: cover;  
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 > div {
+    margin-left: 2em;
+    margin-right: 1em; 
+  }
+
+.img2{
+    padding-left: 3em;
+    flex:1
+}
+
+.content2{
+    flex: 1;
+    font-family: "Inter", sans-serif;
+    color: #faf9f9;
+    font-size: 19px;
+    align-items: center;
+    text-align: left;
+    padding-right: 3em;
+}
+
+.aboutus {
+    /* margin: 15px; */
+    padding: 8px 12px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: black !important;
+    background-color: white;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid rgb(255, 255, 255);    
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(252, 249, 249, 0.815);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.today{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+
+.startb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 16em;
+    margin-right: 16em;
+}
+
+.start {
+    padding: 8px 12px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: black; /* Change the background color to black */
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid black; /* Change the border color to black */
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Change the shadow color to black */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer {
+    font-family: "Inter", sans-serif;
+    /* font-weight: bold; */
+    margin-top: 3em;
+    background-color: #363333;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    text-align: right;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .contact-details {
+    margin-right: 20px;
+  }
+  
+  .contact-details span {
+    display: block;
+  }

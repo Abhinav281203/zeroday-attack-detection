@@ -1,0 +1,55 @@
+.maegin {
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+    justify-content: flex-start;
+}
+
+.institle {
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.innerins {
+    /* margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 1em; */
+    margin: 2em;    
+    font-size: 14px;
+}
+
+.ach{
+    font-family: monospace;
+    color:  rgb(74, 76, 78) !important;
+    font-weight: bold;
+}
+
+div.innerins p {
+    /* Adjust margin or padding within paragraphs */
+    margin-bottom: 1em;
+  }
+
+.stepnos {
+    /* font-family: "Inter", sans-serif;
+    color: rgb(74, 76, 78); */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.instruction {
+    margin: 2em;
+    font-family: "Inter", sans-serif;
+    color: rgb(74, 76, 78);
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+
+.insread {
+    margin-top: 1em;
+    font-family: "Inter", sans-serif;
+    color: rgb(74, 76, 78);
+    font-weight: bold;
+    font-size: 17px;
+}
