@@ -182,8 +182,3 @@ Detective Zero-day."""
         print("Email sent successfully!")
     except Exception as e:
         print(f"Failed to send email. Error: {str(e)}")
-
-
-# Run the FastAPI server
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
