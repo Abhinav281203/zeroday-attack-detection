@@ -10,13 +10,16 @@ import Instruction4 from './code_snippets/Instruction4'
 const Instructions = ({user, logout}) => {
 
   const downloadfile = () => {
-    const filePath = '/collectflows.zip';
+    const downloadFile = (fileUrl, fileName) => {
+      const link = document.createElement('a');
+      link.href = fileUrl;
+      link.download = fileName;
+      link.click();
+    };
 
-    const element = document.createElement('a');
-    element.href = process.env.PUBLIC_URL + filePath;
-    element.download = 'file.zip';
-    element.click();
+    downloadFile(process.env.PUBLIC_URL + '/collectlogs.zip', 'collectlogs.zip');
   };
+
 
   return (
     <div>
