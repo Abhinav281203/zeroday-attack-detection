@@ -29,7 +29,7 @@ const Instructions = ({user, logout}) => {
           <p>Generate your own network logs</p>
         </div>
         <div class='insread'>
-          <p>Access the script file to collect the logs <a href="#" onClick={downloadfile}>here.</a></p>
+          <p>Access the script file <a href="#" onClick={downloadfile}>here.</a> which will automatically collect the logs or you can go on your own.</p>
         </div>
         <div class="insread">
           <p>To generate a .csv file of network logs using cicflowmeter, you can checkout the official page of  <a href='https://pypi.org/project/cicflowmeter/'> cicflowmeter </a>
